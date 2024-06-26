@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { BotMessageSquare } from "lucide-react";
 import { BatteryCharging } from "lucide-react";
 import { Fingerprint } from "lucide-react";
@@ -12,7 +14,7 @@ import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
-export const navItems = [
+export const navItem = [
   { label: "Features", href: "#" },
   { label: "Workflow", href: "#" },
   { label: "Pricing", href: "#" },
