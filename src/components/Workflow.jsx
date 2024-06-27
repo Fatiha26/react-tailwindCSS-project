@@ -1,5 +1,6 @@
 import React from 'react';
 import { CheckCircle2 } from 'lucide-react';
+import {checklistItems} from '../constants';
 import codeImg from "../assets/code.jpg";
 
 const Workflow = () => {
@@ -11,8 +12,17 @@ const Workflow = () => {
         {" "}your coding workflow.
         </span>
         </h2>
-    </div>
-  )
-}
+        <div className='flex flex-wrap justify-center'>
+         <div className='p-2 w-full lg:w-1/3 mt-20'>
+          <img src={codeImg} alt="code" />
+         </div>
+         <div className='pt-12 w-full lg:w-1/2'>
 
-export default Workflow
+         </div>
+
+        </div>
+    </div>
+  );
+};
+
+export default Workflow;
