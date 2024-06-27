@@ -4,7 +4,7 @@ import video2 from "../assets/video2.mp4";
 
 const Hero = () => {
   return (
-    <div className='flex flex-col items-center mt-6 lg:mt-20'>
+    <div className='flex flex-col items-center mt-6 lg:mt-10'>
     <h1 className='text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide'>
     VirtualR build tools 
     <span className='bg-gradient-to-r from-orange-500 to to-red-800 text-transparent bg-clip-text'>
@@ -15,6 +15,22 @@ const Hero = () => {
          Known for their SteamVR platform and the Valve Index headset, Valve is a 
          significant player in the VR gaming space!
     </p>
+    <div className="flex justify-center my-10">
+        <a href="#" className='py-2 px-3 border rounded-sm bg-gradient-to-r from-orange-500 to-orange-800'>Start for free</a>
+        <a href="#" className='py-2 px-3 border rounded-md ml-5'>Documentation</a>
+    </div>
+    <div className='flex mt-10 justify-center'>
+     <video autoPlay loop muted
+     className='rounded-lg w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4'>
+        <source src={video1} type='video/mp4 '/>browser does not support
+     </video>
+
+     <video autoPlay loop muted
+     className='rounded-lg w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4'>
+        <source src={video2} type='video/mp4 '/>browser does not support
+     </video>
+
+    </div>
     </div>
   )
 }
