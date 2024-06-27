@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import React from "react";
 import Feature from "./components/Feature";
 import Workflow from "./components/Workflow";
+import Pricing from "./components/Pricing";
 const App = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const App = () => {
     </div>
     <Feature />
     <Workflow />
+    <Pricing />
     </>
   );
 };

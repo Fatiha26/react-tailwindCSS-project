@@ -29,7 +29,6 @@ const Workflow = () => {
                  </p>
                 </div>
               </div>
-
            ))}
 
          </div>
